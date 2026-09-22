@@ -1,0 +1,1813 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+
+    <meta
+        content="width=device-width, initial-scale=1.0"
+        name="viewport"
+    />
+
+    <meta
+        content="AutoPulse Vehicle Intelligence &amp; Decision Platform"
+        name="description"
+    />
+
+    <meta
+        content="#171717"
+        name="theme-color"
+    />
+
+    <title>
+        AutoPulse | Vehicle Intelligence
+    </title>
+
+    <link
+        href="/static/css/autopulse.css?v=20260922c"
+        rel="stylesheet"
+    />
+
+    <script
+        defer
+        src="/static/app.js?v=20260922c"
+    ></script>
+</head>
+
+<body>
+
+<div class="app-shell">
+
+    <!-- ======================================================
+         SIDEBAR
+         ====================================================== -->
+
+    <aside
+        class="sidebar"
+        id="sidebar"
+    >
+
+        <div class="brand-row">
+
+            <a
+                class="brand"
+                href="#command-center"
+            >
+
+                <span
+                    aria-hidden="true"
+                    class="brand-mark"
+                >
+                    <svg
+                        aria-hidden="true"
+                        class="car-icon"
+                        focusable="false"
+                        viewBox="0 0 32 20"
+                    >
+                        <path
+                            d="M5.2 12.8h21.6l-1.5-5.1a2.5 2.5 0 0 0-2.4-1.8H9.1a2.5 2.5 0 0 0-2.4 1.8l-1.5 5.1Z"
+                        ></path>
+
+                        <path
+                            d="M3.8 12.8h24.4v3.1a1.8 1.8 0 0 1-1.8 1.8H5.6a1.8 1.8 0 0 1-1.8-1.8v-3.1Z"
+                        ></path>
+
+                        <circle
+                            cx="8"
+                            cy="16.7"
+                            r="2.1"
+                        ></circle>
+
+                        <circle
+                            cx="24"
+                            cy="16.7"
+                            r="2.1"
+                        ></circle>
+
+                        <path
+                            d="M8.4 8.2h15.2"
+                        ></path>
+                    </svg>
+                </span>
+
+                <span>
+                    <strong>
+                        AutoPulse
+                    </strong>
+
+                    <small>
+                        Vehicle Intelligence
+                    </small>
+                </span>
+
+            </a>
+
+
+            <button
+                aria-label="Close navigation"
+                class="icon-button sidebar-close"
+                id="sidebarCloseButton"
+                type="button"
+            >
+                ×
+            </button>
+
+        </div>
+
+
+        <nav
+            aria-label="AutoPulse navigation"
+            class="sidebar-nav"
+        >
+
+            <button
+                class="nav-item active"
+                data-target="command-center"
+                type="button"
+            >
+                <span>⌂</span>
+                Command Center
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-target="safety-intelligence"
+                type="button"
+            >
+                <span>◉</span>
+                Safety Intelligence
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-target="trend-intelligence"
+                type="button"
+            >
+                <span>↗</span>
+                Emerging Risk
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-target="recall-intelligence"
+                type="button"
+            >
+                <span>!</span>
+                Recall Intelligence
+            </button>
+
+
+            <button
+                class="nav-item"
+                data-target="analyst-intelligence"
+                type="button"
+            >
+                <span>✦</span>
+                Ask Analyst
+            </button>
+
+        </nav>
+
+
+        <div class="sidebar-footer">
+
+            <span class="sidebar-label">
+                DATA SOURCES
+            </span>
+
+
+            <div class="source-list">
+                <span>NHTSA</span>
+                <span>vPIC</span>
+                <span>AutoPulse Analytics</span>
+            </div>
+
+
+            <small>
+                VIN-first vehicle intelligence
+            </small>
+
+        </div>
+
+    </aside>
+
+
+    <button
+        aria-label="Close navigation"
+        class="sidebar-overlay hidden"
+        id="sidebarOverlay"
+        type="button"
+    ></button>
+
+
+    <!-- ======================================================
+         WORKSPACE
+         ====================================================== -->
+
+    <div class="workspace">
+
+        <!-- ==================================================
+             TOP BAR
+             ================================================== -->
+
+        <header class="topbar">
+
+            <button
+                aria-label="Open navigation"
+                class="icon-button mobile-menu-button"
+                id="sidebarToggleButton"
+                type="button"
+            >
+                ☰
+            </button>
+
+
+            <div class="topbar-copy">
+
+                <span>
+                    VIN SAFETY &amp; RISK INTELLIGENCE
+                </span>
+
+                <strong>
+                    AutoPulse
+                </strong>
+
+            </div>
+
+
+            <div class="platform-status">
+
+                <span class="status-dot"></span>
+
+                <div>
+
+                    <strong>
+                        Platform Online
+                    </strong>
+
+                    <small>
+                        Live NHTSA intelligence
+                    </small>
+
+                </div>
+
+            </div>
+
+        </header>
+
+
+        <!-- ==================================================
+             MAIN
+             ================================================== -->
+
+        <main class="main-content">
+
+            <!-- ==============================================
+                 HERO
+                 ============================================== -->
+
+            <section class="hero">
+
+                <div>
+
+                    <span class="eyebrow">
+                        VEHICLE INTELLIGENCE PLATFORM
+                    </span>
+
+
+                    <h1>
+                        Make a vehicle decision with evidence.
+                    </h1>
+
+
+                    <p>
+                        Enter a VIN to identify the vehicle,
+                        inspect safety evidence, detect emerging
+                        complaint patterns, review recall campaigns
+                        and ask evidence-grounded vehicle questions.
+                    </p>
+
+
+                    <div class="hero-meta">
+
+                        <span>
+                            <strong>
+                                NHTSA
+                            </strong>
+
+                            <small>
+                                Safety evidence
+                            </small>
+                        </span>
+
+
+                        <span>
+                            <strong>
+                                vPIC
+                            </strong>
+
+                            <small>
+                                VIN identity
+                            </small>
+                        </span>
+
+
+                        <span>
+                            <strong>
+                                Source-aware
+                            </strong>
+
+                            <small>
+                                No false zeroes
+                            </small>
+                        </span>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    aria-hidden="true"
+                    class="hero-emblem"
+                >
+
+                    <svg
+                        aria-hidden="true"
+                        class="car-icon"
+                        focusable="false"
+                        viewBox="0 0 32 20"
+                    >
+
+                        <path
+                            d="M5.2 12.8h21.6l-1.5-5.1a2.5 2.5 0 0 0-2.4-1.8H9.1a2.5 2.5 0 0 0-2.4 1.8l-1.5 5.1Z"
+                        ></path>
+
+                        <path
+                            d="M3.8 12.8h24.4v3.1a1.8 1.8 0 0 1-1.8 1.8H5.6a1.8 1.8 0 0 1-1.8-1.8v-3.1Z"
+                        ></path>
+
+                        <circle
+                            cx="8"
+                            cy="16.7"
+                            r="2.1"
+                        ></circle>
+
+                        <circle
+                            cx="24"
+                            cy="16.7"
+                            r="2.1"
+                        ></circle>
+
+                        <path
+                            d="M8.4 8.2h15.2"
+                        ></path>
+
+                    </svg>
+
+
+                    <small>
+                        VEHICLE INTELLIGENCE
+                    </small>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==============================================
+                 COMMAND CENTER
+                 ============================================== -->
+
+            <section
+                class="panel section-anchor"
+                id="command-center"
+            >
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-kicker">
+                            COMMAND CENTER
+                        </span>
+
+
+                        <h2>
+                            Analyze a VIN
+                        </h2>
+
+
+                        <p>
+                            Enter a 17-character VIN to build
+                            the vehicle intelligence report.
+                        </p>
+
+                    </div>
+
+
+                    <span class="section-tag">
+                        LIVE ANALYSIS
+                    </span>
+
+                </div>
+
+
+                <div
+                    class="search-panel"
+                    id="vinSearchPanel"
+                >
+
+                    <div class="vin-search-shell">
+
+                        <label for="vinInput">
+                            Vehicle Identification Number (VIN)
+                        </label>
+
+
+                        <div class="vin-search-row">
+
+                            <input
+                                autocomplete="off"
+                                id="vinInput"
+                                maxlength="17"
+                                placeholder="Enter 17-character VIN"
+                                spellcheck="false"
+                                type="text"
+                            />
+
+
+                            <button
+                                class="primary-button"
+                                id="vinSearchButton"
+                                type="button"
+                            >
+                                Analyze VIN
+                            </button>
+
+                        </div>
+
+
+                        <div class="vin-search-foot">
+
+                            <small>
+                                17 characters · letters and numbers only
+                            </small>
+
+
+                            <span>
+                                Identity first · evidence sources load independently
+                            </span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <div
+                    class="inline-error hidden"
+                    id="searchError"
+                    role="alert"
+                ></div>
+
+            </section>
+
+
+            <!-- ==============================================
+                 EMPTY STATE
+                 ============================================== -->
+
+            <section
+                class="empty-state"
+                id="emptyState"
+            >
+
+                <div class="empty-emblem">
+
+                    <svg
+                        aria-hidden="true"
+                        class="car-icon"
+                        focusable="false"
+                        viewBox="0 0 32 20"
+                    >
+
+                        <path
+                            d="M5.2 12.8h21.6l-1.5-5.1a2.5 2.5 0 0 0-2.4-1.8H9.1a2.5 2.5 0 0 0-2.4 1.8l-1.5 5.1Z"
+                        ></path>
+
+                        <path
+                            d="M3.8 12.8h24.4v3.1a1.8 1.8 0 0 1-1.8 1.8H5.6a1.8 1.8 0 0 1-1.8-1.8v-3.1Z"
+                        ></path>
+
+                        <circle
+                            cx="8"
+                            cy="16.7"
+                            r="2.1"
+                        ></circle>
+
+                        <circle
+                            cx="24"
+                            cy="16.7"
+                            r="2.1"
+                        ></circle>
+
+                        <path
+                            d="M8.4 8.2h15.2"
+                        ></path>
+
+                    </svg>
+
+                </div>
+
+
+                <div>
+
+                    <span class="section-kicker">
+                        READY FOR ANALYSIS
+                    </span>
+
+
+                    <h2>
+                        One VIN. Five intelligence layers.
+                    </h2>
+
+
+                    <p>
+                        AutoPulse turns a VIN into a focused
+                        view of vehicle identity, safety
+                        evidence, emerging risk and recall
+                        intelligence.
+                    </p>
+
+
+                    <div class="capability-row">
+
+                        <span>
+                            VIN Identity
+                        </span>
+
+                        <span>
+                            Safety Intelligence
+                        </span>
+
+                        <span>
+                            Emerging Risk
+                        </span>
+
+                        <span>
+                            Recall Intelligence
+                        </span>
+
+                        <span>
+                            Ask Analyst
+                        </span>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==============================================
+                 LOADING STATE
+                 ============================================== -->
+
+            <section
+                aria-live="polite"
+                class="loading-state hidden"
+                id="loadingState"
+            >
+
+                <div class="loader"></div>
+
+
+                <div>
+
+                    <strong>
+                        Building vehicle intelligence...
+                    </strong>
+
+
+                    <span id="loadingMessage">
+                        Retrieving vehicle identity and safety evidence
+                    </span>
+
+                </div>
+
+            </section>
+
+
+            <!-- ==============================================
+                 RESULTS
+                 ============================================== -->
+
+            <div
+                class="results-container hidden"
+                id="resultsContainer"
+            >
+
+                <!-- ==========================================
+                     VEHICLE OVERVIEW
+                     ========================================== -->
+
+                <section
+                    class="panel section-anchor"
+                    id="vehicle-overview"
+                >
+
+                    <div class="vehicle-header">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                VIN INTELLIGENCE REPORT
+                            </span>
+
+
+                            <h2 id="vehicleTitle">
+                                Vehicle
+                            </h2>
+
+
+                            <p id="vehicleSubtitle">
+                                Vehicle configuration
+                            </p>
+
+                        </div>
+
+
+                        <div class="profile-badges">
+
+                            <span
+                                class="badge"
+                                id="vehicleTypeBadge"
+                            >
+                                Vehicle
+                            </span>
+
+
+                            <span
+                                class="badge"
+                                id="fuelTypeBadge"
+                            >
+                                —
+                            </span>
+
+
+                            <span
+                                class="badge"
+                                id="confidenceBadge"
+                            >
+                                Evidence —
+                            </span>
+
+
+                            <span
+                                class="badge source-badge"
+                                id="sourceAvailabilityBadge"
+                            >
+                                Sources —
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ======================================
+                         EXTERNAL VERIFICATION
+                         ====================================== -->
+
+                    <div
+                        aria-label="Official vehicle resources"
+                        class="vehicle-resource-bar"
+                    >
+
+                        <div class="resource-copy">
+
+                            <span class="card-label">
+                                VERIFY &amp; EXPLORE
+                            </span>
+
+
+                            <p>
+                                Open VIN-aware verification where the
+                                provider supports it. External report
+                                access remains controlled by each source.
+                            </p>
+
+                        </div>
+
+
+                        <div class="resource-links">
+
+                            <a
+                                class="resource-link"
+                                data-resource="nhtsa-vin"
+                                href="https://vpic.nhtsa.dot.gov/decoder"
+                                id="nhtsaVinLink"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                NHTSA VIN Decoder
+                                <span>↗</span>
+                            </a>
+
+
+                            <a
+                                class="resource-link"
+                                data-resource="nhtsa-recalls"
+                                href="https://www.nhtsa.gov/recalls"
+                                id="nhtsaRecallLink"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                NHTSA VIN Recalls
+                                <span>↗</span>
+                            </a>
+
+
+                            <a
+                                class="resource-link"
+                                data-resource="nhtsa-ratings"
+                                href="https://www.nhtsa.gov/ratings"
+                                id="nhtsaRatingsLink"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                NHTSA Safety Ratings
+                                <span>↗</span>
+                            </a>
+
+
+                            <a
+                                class="resource-link resource-link-muted"
+                                data-resource="carfax"
+                                href="https://www.carfax.com/vehicle-history-reports/"
+                                id="carfaxReportLink"
+                                rel="noopener noreferrer"
+                                target="_blank"
+                            >
+                                CARFAX Report
+                                <span>↗</span>
+                            </a>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- ======================================
+                         EXECUTIVE OVERVIEW
+                         ====================================== -->
+
+                    <div class="overview-layout">
+
+                        <article class="risk-score-card">
+
+                            <span class="card-label">
+                                AUTOPULSE RISK SIGNAL
+                            </span>
+
+
+                            <div
+                                class="risk-gauge"
+                                id="riskGauge"
+                                style="--score:0"
+                            >
+
+                                <div class="risk-gauge-inner">
+
+                                    <strong id="riskScore">
+                                        —
+                                    </strong>
+
+                                    <span>
+                                        / 100
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div
+                                class="attention-level"
+                                id="attentionLevel"
+                            >
+                                —
+                            </div>
+
+
+                            <p>
+                                Explainable evidence-intensity indicator.
+                                AutoPulse withholds the signal when core
+                                source coverage is insufficient.
+                            </p>
+
+                        </article>
+
+
+                        <article class="decision-card">
+
+                            <span class="card-label">
+                                EXECUTIVE READ
+                            </span>
+
+
+                            <h3 id="ownershipDecision">
+                                —
+                            </h3>
+
+
+                            <p id="ownershipRecommendation">
+                                Run an analysis to generate an
+                                evidence-based recommendation.
+                            </p>
+
+
+                            <hr/>
+
+
+                            <strong>
+                                Why this result?
+                            </strong>
+
+
+                            <ul id="decisionDrivers">
+                                <li>
+                                    Waiting for analysis.
+                                </li>
+                            </ul>
+
+                        </article>
+
+
+                        <article class="identity-card">
+
+                            <span class="card-label">
+                                VEHICLE IDENTITY
+                            </span>
+
+
+                            <div class="identity-grid">
+
+                                <div>
+                                    <span>
+                                        Make
+                                    </span>
+
+                                    <strong id="identityMake">
+                                        —
+                                    </strong>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Model
+                                    </span>
+
+                                    <strong id="identityModel">
+                                        —
+                                    </strong>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Year
+                                    </span>
+
+                                    <strong id="identityYear">
+                                        —
+                                    </strong>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Body
+                                    </span>
+
+                                    <strong id="identityBody">
+                                        —
+                                    </strong>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Drive
+                                    </span>
+
+                                    <strong id="identityDrive">
+                                        —
+                                    </strong>
+                                </div>
+
+
+                                <div>
+                                    <span>
+                                        Origin
+                                    </span>
+
+                                    <strong id="identityOrigin">
+                                        —
+                                    </strong>
+                                </div>
+
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </section>
+
+
+                <!-- ==========================================
+                     SAFETY INTELLIGENCE
+                     ========================================== -->
+
+                <section
+                    class="panel section-anchor"
+                    id="safety-intelligence"
+                >
+
+                    <div class="section-heading">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                SAFETY INTELLIGENCE
+                            </span>
+
+
+                            <h2>
+                                Safety evidence
+                            </h2>
+
+
+                            <p>
+                                Complaints, recalls and complaint-derived
+                                severity signals for this vehicle. Missing
+                                source evidence stays unavailable, never zero.
+                            </p>
+
+                        </div>
+
+
+                        <span class="section-tag">
+                            NHTSA EVIDENCE
+                        </span>
+
+                    </div>
+
+
+                    <div class="metric-grid">
+
+                        <article>
+
+                            <span>
+                                Complaints
+                            </span>
+
+                            <strong id="complaintCount">
+                                —
+                            </strong>
+
+                            <small>
+                                NHTSA complaint evidence
+                            </small>
+
+                        </article>
+
+
+                        <article>
+
+                            <span>
+                                Recall Campaigns
+                            </span>
+
+                            <strong id="recallCount">
+                                —
+                            </strong>
+
+                            <small>
+                                NHTSA campaign evidence
+                            </small>
+
+                        </article>
+
+
+                        <article>
+
+                            <span>
+                                Crash Reports
+                            </span>
+
+                            <strong id="crashCount">
+                                —
+                            </strong>
+
+                            <small>
+                                Complaint-linked
+                            </small>
+
+                        </article>
+
+
+                        <article>
+
+                            <span>
+                                Fire Reports
+                            </span>
+
+                            <strong id="fireCount">
+                                —
+                            </strong>
+
+                            <small>
+                                Complaint-linked
+                            </small>
+
+                        </article>
+
+
+                        <article>
+
+                            <span>
+                                Reported Injuries
+                            </span>
+
+                            <strong id="injuryCount">
+                                —
+                            </strong>
+
+                            <small>
+                                Complaint records
+                            </small>
+
+                        </article>
+
+
+                        <article>
+
+                            <span>
+                                Reported Deaths
+                            </span>
+
+                            <strong id="deathCount">
+                                —
+                            </strong>
+
+                            <small>
+                                Complaint records
+                            </small>
+
+                        </article>
+
+                    </div>
+
+
+                    <article class="sub-panel real-world-panel">
+
+                        <div class="sub-panel-header">
+
+                            <div>
+
+                                <span class="card-label">
+                                    REAL-WORLD ISSUE INTELLIGENCE
+                                </span>
+
+
+                                <h3>
+                                    Highest-signal owner reports
+                                </h3>
+
+                            </div>
+
+
+                            <span class="small-status">
+                                Complaint-derived · source-aware
+                            </span>
+
+                        </div>
+
+
+                        <p class="panel-description">
+                            Ranked complaint themes with severity
+                            context and recall overlap. Unavailable
+                            source data is never interpreted as zero.
+                        </p>
+
+
+                        <div
+                            class="real-world-issue-grid"
+                            id="realWorldIssueList"
+                        >
+
+                            <div class="empty-inline">
+                                Real-world issue intelligence appears
+                                after analysis.
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="sub-panel ncap-panel">
+
+                        <div class="sub-panel-header">
+
+                            <div>
+
+                                <span class="card-label">
+                                    NHTSA NCAP
+                                </span>
+
+
+                                <h3>
+                                    Crash-test ratings
+                                </h3>
+
+                            </div>
+
+
+                            <span
+                                class="small-status"
+                                id="ncapCoverage"
+                            >
+                                Awaiting vehicle
+                            </span>
+
+                        </div>
+
+
+                        <div class="ncap-grid">
+
+                            <div>
+
+                                <span>
+                                    Overall
+                                </span>
+
+                                <strong id="ncapOverall">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Front Crash
+                                </span>
+
+                                <strong id="ncapFront">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Side Crash
+                                </span>
+
+                                <strong id="ncapSide">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div>
+
+                                <span>
+                                    Rollover
+                                </span>
+
+                                <strong id="ncapRollover">
+                                    —
+                                </strong>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </section>
+
+                                <!-- ==========================================
+                     EMERGING RISK
+                     ========================================== -->
+
+                <section
+                    class="panel section-anchor"
+                    id="trend-intelligence"
+                >
+
+                    <div class="section-heading">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                EMERGING RISK
+                            </span>
+
+
+                            <h2>
+                                Emerging risk
+                            </h2>
+
+
+                            <p>
+                                Track complaint momentum using complete-year
+                                history while keeping current-year activity
+                                visible as YTD context. Unavailable trend
+                                evidence is shown as unavailable.
+                            </p>
+
+                        </div>
+
+
+                        <span
+                            class="trend-signal"
+                            id="trendSignalBadge"
+                        >
+                            —
+                        </span>
+
+                    </div>
+
+
+                    <div class="trend-layout">
+
+                        <article class="sub-panel">
+
+                            <span class="card-label">
+                                COMPLAINT TIMELINE
+                            </span>
+
+
+                            <h3>
+                                Reports by calendar year
+                            </h3>
+
+
+                            <div
+                                class="trend-chart"
+                                id="trendChart"
+                            >
+
+                                <div class="empty-inline">
+                                    Trend data appears after analysis.
+                                </div>
+
+                            </div>
+
+                        </article>
+
+
+                        <article class="trend-summary-card">
+
+                            <span class="card-label">
+                                TREND SUMMARY
+                            </span>
+
+
+                            <div class="trend-stat">
+
+                                <span>
+                                    Latest complete year
+                                </span>
+
+                                <strong id="trendYear">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="trend-stat">
+
+                                <span>
+                                    Latest complaints
+                                </span>
+
+                                <strong id="trendLatestCount">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="trend-stat">
+
+                                <span>
+                                    3-year baseline
+                                </span>
+
+                                <strong id="trendBaseline">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="trend-stat highlight">
+
+                                <span>
+                                    Complaint acceleration
+                                </span>
+
+                                <strong id="trendAcceleration">
+                                    —
+                                </strong>
+
+                            </div>
+
+
+                            <div class="trend-ytd-card">
+
+                                <span id="trendYtdLabel">
+                                    Current YTD
+                                </span>
+
+
+                                <strong id="trendYtdCount">
+                                    —
+                                </strong>
+
+
+                                <small id="trendYtdThrough">
+                                    Excluded from headline trend
+                                </small>
+
+                            </div>
+
+
+                            <p
+                                class="method-note"
+                                id="trendMethodologyNote"
+                            >
+                                Trend methodology appears
+                                after analysis.
+                            </p>
+
+
+                            <hr/>
+
+
+                            <strong>
+                                Recent issue concentration
+                            </strong>
+
+
+                            <div
+                                class="recent-issue-list"
+                                id="recentIssueList"
+                            >
+                                —
+                            </div>
+
+                        </article>
+
+                    </div>
+
+                </section>
+
+
+                <!-- ==========================================
+                     RECALL INTELLIGENCE
+                     ========================================== -->
+
+                <section
+                    class="panel section-anchor"
+                    id="recall-intelligence"
+                >
+
+                    <div class="section-heading">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                RECALL INTELLIGENCE
+                            </span>
+
+
+                            <h2>
+                                Recall intelligence
+                            </h2>
+
+
+                            <p>
+                                Review campaign scope, failure consequence
+                                and manufacturer remedy, then use the VIN-aware
+                                NHTSA link to verify open recalls for this vehicle.
+                            </p>
+
+                        </div>
+
+
+                        <div class="recall-heading-badges">
+
+                            <span
+                                class="small-status"
+                                id="recallUrgency"
+                            >
+                                Standard review
+                            </span>
+
+
+                            <span
+                                class="count-badge"
+                                id="recallBadge"
+                            >
+                                —
+                            </span>
+
+                        </div>
+
+                    </div>
+
+
+                    <div
+                        class="recall-scope"
+                        id="recallScope"
+                    >
+
+                        <div>
+
+                            <span>
+                                Scope
+                            </span>
+
+
+                            <strong id="recallScopeLabel">
+                                Model-year campaign evidence
+                            </strong>
+
+                        </div>
+
+
+                        <p id="recallScopeNote">
+                            Recall scope details appear
+                            after analysis.
+                        </p>
+
+                    </div>
+
+
+                    <div
+                        class="recall-list"
+                        id="recallList"
+                    >
+
+                        <div class="empty-inline">
+                            Recall details appear after analysis.
+                        </div>
+
+                    </div>
+
+                </section>
+
+                <!-- ==========================================
+                     ASK AUTOPULSE ANALYST
+                     ========================================== -->
+
+                <section
+                    class="panel analyst-panel section-anchor"
+                    id="analyst-intelligence"
+                >
+
+                    <div class="section-heading">
+
+                        <div>
+
+                            <span class="section-kicker">
+                                ASK AUTOPULSE ANALYST
+                            </span>
+
+
+                            <h2>
+                                Ask about this vehicle
+                            </h2>
+
+
+                            <p>
+                                Evidence-grounded analysis based on the
+                                active VIN report. Missing evidence remains
+                                unavailable and is never treated as zero.
+                            </p>
+
+                        </div>
+
+
+                        <span class="section-tag">
+                            AI ANALYST
+                        </span>
+
+                    </div>
+
+
+                    <div class="analyst-shell">
+
+                        <div
+                            aria-label="Analyst report context"
+                            class="analyst-context"
+                        >
+
+                            <div>
+                                <span>
+                                    Active vehicle
+                                </span>
+
+                                <strong id="analystVehicleLabel">
+                                    Waiting for VIN analysis
+                                </strong>
+                            </div>
+
+
+                            <div>
+                                <span>
+                                    Evidence status
+                                </span>
+
+                                <strong id="analystEvidenceStatus">
+                                    Awaiting evidence
+                                </strong>
+                            </div>
+
+                        </div>
+
+
+                        <div class="analyst-suggestions">
+
+                            <button
+                                class="analyst-suggestion"
+                                data-analyst-question="What problems should I watch for with this vehicle?"
+                                type="button"
+                            >
+                                What problems should I watch for?
+                            </button>
+
+
+                            <button
+                                class="analyst-suggestion"
+                                data-analyst-question="What should I inspect before buying this vehicle?"
+                                type="button"
+                            >
+                                What should I inspect before buying?
+                            </button>
+
+
+                            <button
+                                class="analyst-suggestion"
+                                data-analyst-question="Explain the recall evidence for this vehicle in simple language."
+                                type="button"
+                            >
+                                Explain the recalls in simple language.
+                            </button>
+
+
+                            <button
+                                class="analyst-suggestion"
+                                data-analyst-question="What does the available evidence say about this vehicle, and what is still unknown?"
+                                type="button"
+                            >
+                                What does the evidence say about this vehicle?
+                            </button>
+
+                        </div>
+
+
+                        <div
+                            aria-live="polite"
+                            class="analyst-status"
+                            id="analystStatus"
+                        >
+                            Analyze a VIN, then choose a question or write your own.
+                        </div>
+
+
+                        <div class="analyst-input-row">
+
+                            <textarea
+                                id="analystQuestion"
+                                maxlength="1200"
+                                placeholder="Ask a question about the analyzed vehicle..."
+                                rows="3"
+                            ></textarea>
+
+
+                            <button
+                                class="primary-button"
+                                id="analystAskButton"
+                                type="button"
+                            >
+                                Ask Analyst
+                            </button>
+
+                        </div>
+
+
+                        <div
+                            aria-live="polite"
+                            class="analyst-response hidden"
+                            id="analystResponse"
+                            role="status"
+                        ></div>
+
+
+                        <p class="analyst-disclaimer">
+                            Ask Analyst explains the evidence AutoPulse has
+                            actually retrieved for this VIN. It should not
+                            invent missing complaints, ratings or recall status.
+                        </p>
+
+                    </div>
+
+                </section>
+
+            </div>
+
+
+            <!-- ==============================================
+                 METHODOLOGY
+                 ============================================== -->
+
+            <section class="panel methodology-panel">
+
+                <div class="section-heading">
+
+                    <div>
+
+                        <span class="section-kicker">
+                            METHODOLOGY
+                        </span>
+
+
+                        <h2>
+                            Evidence
+                        </h2>
+
+                    </div>
+
+                </div>
+
+
+                <div class="methodology-grid">
+
+                    <article>
+
+                        <span>
+                            01
+                        </span>
+
+
+                        <strong>
+                            Official identity
+                        </strong>
+
+
+                        <p>
+                            VIN identity is decoded with NHTSA
+                            vPIC manufacturer data.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <span>
+                            02
+                        </span>
+
+
+                        <strong>
+                            Source-aware evidence
+                        </strong>
+
+
+                        <p>
+                            Complaint, recall and crash-test
+                            evidence are loaded independently.
+                            A source outage is never interpreted
+                            as zero events.
+                        </p>
+
+                    </article>
+
+
+                    <article>
+
+                        <span>
+                            03
+                        </span>
+
+
+                        <strong>
+                            Explainable signals
+                        </strong>
+
+
+                        <p>
+                            AutoPulse keeps complaint burden,
+                            severity, recall context and trend
+                            evidence visible instead of hiding
+                            everything behind one score.
+                        </p>
+
+                    </article>
+
+                </div>
+
+
+                <div class="methodology-warning">
+
+                    AutoPulse is a portfolio decision-support
+                    platform. Its risk signal is not an official
+                    government safety rating. When core evidence
+                    is unavailable, AutoPulse may withhold the
+                    risk signal rather than imply a false zero.
+                    VIN-specific open recalls should always be
+                    verified directly with NHTSA. Ask Analyst explains
+                    retrieved AutoPulse evidence and does not replace
+                    official recall, inspection or history verification.
+
+                </div>
+
+            </section>
+
+
+            <!-- ==============================================
+                 FOOTER
+                 ============================================== -->
+
+            <footer class="footer">
+
+                <div>
+
+                    <strong>
+                        AutoPulse
+                    </strong>
+
+
+                    <span>
+                        Vehicle Intelligence &amp; Decision Platform
+                    </span>
+
+                </div>
+
+
+                <div>
+                    NHTSA · vPIC · Explainable vehicle intelligence
+                </div>
+
+            </footer>
+
+        </main>
+
+    </div>
+
+</div>
+
+
+<!-- ==========================================================
+     TOAST
+     ========================================================== -->
+
+<div
+    aria-live="polite"
+    class="toast hidden"
+    id="toast"
+    role="status"
+>
+
+    <strong id="toastTitle">
+        AutoPulse
+    </strong>
+
+
+    <span id="toastMessage"></span>
+
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,80 @@
+source_make,alias_count,status,models_returned,returned_make_ids,returned_make_names,example_models
+THOR MOTOR COACH,58,NO_MODELS_FOUND,0,,,
+GRAND DESIGN,35,MODELS_FOUND,10,1336,GRAND DESIGN RECREATIONAL,GRAND DESIGN RECREATIONAL | Solitude | Reflection | Momentum | Imagine | Transcend | Utility Trailer | Silhouette | Influence | Foundation
+SCION,24,NO_MODELS_FOUND,0,,,
+TIFFIN,21,MODELS_FOUND,6,3481,"Tiffin Motorhomes, Inc",Allegro Bay | Phaeton | Allegro Bus | Zephyr | Breeze | Allegro Red
+NEWMAR,19,MODELS_FOUND,2,2631,Newmar Corporation,Newmar Corporation | Newco
+FLEETWOOD,18,MODELS_FOUND,42,1055 | 1476 | 4564 | 5638 | 5640 | 5641 | 5642 | 5645 | 5646 | 5647 | 5648 | 5649 | 9660 | 9661,"Fleetwood Enterprises | Fleetwood Enterprises (Avion) | Fleetwood Enterprises (Caribou) | Fleetwood Enterprises (Elkhorn) | Fleetwood Enterprises (Mallard) | Fleetwood Enterprises (Park Models) | Fleetwood Enterprises (Prowler) | Fleetwood Enterprises (Savanna) | Fleetwood Enterprises (Terry) | Fleetwood Enterprises (Wildnerness) | Fleetwood Enterprises, Inc. (Angler) | Fleetwood Enterprises, Inc. (Westport) | Fleetwood Folding Trailers | Fleetwood RV, Inc.",Williamsburg | Bayside | Utah | Santa Fe | Sun Valley | Cheyenne | Arcadia | Niagara | Saratoga | Avalon
+INDIAN,18,MODELS_FOUND,105,13443 | 13965 | 1763 | 1768 | 2705 | 4202 | 548 | 6252 | 7640 | 7905 | 8219 | 8227,"Commodore Homes of Indiana | Indian Larry Legacy | Indian Motorcycle | Indian River Trailers Inc | Indiana | Indiana Custom Cargo, Inc | Indiana Phoenix Inc | Indianhead Truck & Body | Performance Indian | Southern Indiana Materials Co Inc | Thor Indiana, Inc. | Winnebago of Indiana",Indian Larry Legacy | Chief | Performance Indian | Indianhead Truck & Body | Chief Classic | Chief Dark Horse | Chief Vintage | Springfield | Chieftain Dark Horse | Chieftan
+JAYCO TRAVEL TRAILER,10,NO_MODELS_FOUND,0,,,
+DYNAMAX,7,MODELS_FOUND,1,1213,Dynamax Corporation,dynamax
+JAYCO FIFTH WHEEL,6,NO_MODELS_FOUND,0,,,
+FCCC,4,NO_MODELS_FOUND,0,,,
+VANLEIGH,4,MODELS_FOUND,5,4550,Vanleigh RV,Vanleigh RV | Beacon | Pinecrest | Vilano | Ambition
+BRINKLEY RV,3,NO_MODELS_FOUND,0,,,
+DUTCHMEN,3,MODELS_FOUND,2,860 | 9115,"Dutchmen Manufacturing | Dutchmen Mfg., Inc.","Dutchmen Manufacturing | Dutchmen Mfg., Inc."
+GULF STREAM,3,MODELS_FOUND,1,7634,"Gulf Stream Coach, Inc.","Gulf Stream Coach, Inc."
+MERCEDES-MAYBACH,3,NO_MODELS_FOUND,0,,,
+WABASH NATIONAL,3,NO_MODELS_FOUND,0,,,
+4-STAR TRAILER,2,MODELS_FOUND,1,5676,4-Star Trailers Inc.,4-Star Trailers Inc.
+AMERICAN COACH,2,NO_MODELS_FOUND,0,,,
+BATTLE MOTORS,2,NO_MODELS_FOUND,0,,,
+CRUISER RV,2,NO_MODELS_FOUND,0,,,
+GENESIS SUPREME,2,MODELS_FOUND,6,6840,"GENESIS SUPREME RV, INC",Genesis Supreme | Envy | Vortex | Supreme | Genesis | Tahoe
+GREAT DANE,2,MODELS_FOUND,1,520,Great Dane Trailers,Great Dane Trailers
+INTECH,2,MODELS_FOUND,1,8211,inTech Trailers,inTech Trailers
+KARAVAN,2,MODELS_FOUND,29,5044 | 9051,Basoglu Karavan Sanayi ve Ticaret A.S. | Karavan Trailer,Karavan Trailer | Basoglu Karavan Sanayi ve Ticaret A.S. | KUT-4000 | KR-1250 | KR-2200 | KR-2450 | KR-2550 | KR-2950 | KRT-3500 | KR-1500
+ROADTREK,2,NO_MODELS_FOUND,0,,,
+STARCRAFT RV TT,2,NO_MODELS_FOUND,0,,,
+SUNSET PARK & RV,2,NO_MODELS_FOUND,0,,,
+ABS REMORQUES,1,NO_MODELS_FOUND,0,,,
+ARK LA TEX,1,NO_MODELS_FOUND,0,,,
+ATC,1,MODELS_FOUND,9,10951 | 11432 | 11659 | 12085 | 2251 | 3605 | 5270 | 5363 | 9544,"ATC TRAILERS | Batco | Independent Dispatch, Inc. | Kovatch Mobile Equipment | Latco | SASQUATCH III | Sasquatch Campers | WATCHDOG TRAILERS LLC | Watco Truck Rigging","Latco | Watco Truck Rigging, Inc. | Batco | Kovatch Mobile Equipment | Independent Dispatch, Inc. | WATCHDOG TRAILERS LLC | Sasquatch Campers | SASQUATCH III | ATC TRAILERS"
+BERKSHIRE,1,NO_MODELS_FOUND,0,,,
+BLACK SERIES CAMPERS,1,NO_MODELS_FOUND,0,,,
+BOWLUS,1,MODELS_FOUND,6,1576,Bowlus Road Chief,Bowlus Road Chief | Bowlus | Endless Highways | Terra Firma | Volterra | Rivet
+CARTCRAFT,1,NO_MODELS_FOUND,0,,,
+CLIPPER TOWABLE,1,NO_MODELS_FOUND,0,,,
+DETROIT CHASSIS,1,NO_MODELS_FOUND,0,,,
+DIAMOND CITY,1,MODELS_FOUND,1,1333,Diamond City Trailer,Diamond City Trailer
+DRV,1,MODELS_FOUND,4,545,DRV Suites,DRV | Travel Suites | All Aluminum Structure | Tradition
+EMBER,1,MODELS_FOUND,5,11287 | 4241,"EMBER RECREATIONAL VEHICLES, INC | PEMBERTON FABRICATORS",PEMBERTON FABRICATORS | Overland Series | Touring Edition | Other | E-Series
+EZ LOADER,1,MODELS_FOUND,45,5341 | 9705,EZ LOADER WIDTH SERIES | EZ Loader Custom Boat Trailers,SC | CD-TI | FPS | EZS | ALM | R | ECON | FPT | M1 | ACT
+FIELD VAN,1,NO_MODELS_FOUND,0,,,
+FRAZER,1,NO_MODELS_FOUND,0,,,
+FRUEHAUF,1,MODELS_FOUND,2,12373 | 12812,FRUEHAUF INC. | HENRED FRUEHAUF,FRUEHAUF INC. | Henred Fruehauf
+GENUINE SCOOTER,1,MODELS_FOUND,22,570,Genuine Scooters,"BLUR 150 | Buddy (50, 125, 170i) | Blur SS220i | Roughhouse 50 | Hooligan 170i | Venture 50, Trevis 50 | Venture 150 | H361D | Buddy Kick | Reserved"
+GRECH,1,NO_MODELS_FOUND,0,,,
+HIGHLAND RIDGE FW,1,NO_MODELS_FOUND,0,,,
+HORTON,1,MODELS_FOUND,8,10560 | 1667 | 4166 | 6947,"HORTON CARGO | Horton Homes, Inc. | Horton Iron Works | Horton Vans","Horton Iron Works | Horton Vans | Standard | Expando | Covered | Open | HORTON CARGO | HORTON HOMES, INC."
+HYUNDAI TRANSLEAD,1,MODELS_FOUND,1,4876,Hyundai Translead Trailers,Hyundai Translead Trailers
+ICE CASTLE,1,NO_MODELS_FOUND,0,,,
+INTERSTATE WEST,1,MODELS_FOUND,1,7701,Interstate West Corp,Interstate West Corp
+ITASCA,1,MODELS_FOUND,1,4186,Itasca Thunder,Itasca Thunder Inc.
+KAUFMAN,1,MODELS_FOUND,5,10136 | 12004 | 6323 | 6614 | 7749,"KAUFMAN TRAILERS | KAUFMAN TRAILERS OF NC | KAUFMAN TRAILERS OF SC | Kaufman Trailers Group, LLC | Kaufman Trailers of NE, Inc.","KAUFMAN TRAILERS | KAUFMAN TRAILERS OF NC | KAUFMAN TRAILERS OF SC | Kaufman Trailers of NE, Inc. | Kaufman Trailers Group, LLC"
+KENTUCKY TRAILER,1,MODELS_FOUND,1,7040,East Kentucky Trailers Mfg Co,East Kentucky Trailers Mfg Co
+MAC TRAILERS,1,MODELS_FOUND,1,2011,Charmac Trailers,Charmac Trailers
+MAGIC TILT,1,MODELS_FOUND,1,4228,Magic Tilt Trailers,Magic Tilt Trailers
+MERCEDES,1,MODELS_FOUND,62,449,Mercedes-Benz,Sprinter | SL-Class | SLK-Class | E-Class | CLS-Class | CLA-Class | GLA-Class | C-Class | S-Class | SLS-Class
+MICRO BIRD,1,NO_MODELS_FOUND,0,,,
+MIDWEST AUTOMOTIVE DESIGN,1,NO_MODELS_FOUND,0,,,
+MOBILITYWORKS,1,NO_MODELS_FOUND,0,,,
+NORSTAR,1,MODELS_FOUND,2,12156 | 4581,NORSTAR TRAILERS MEXICO S DE RL DE CV | Norstar Trailers,Norstar Trailers | NORSTAR TRAILERS MEXICO S DE RL DE CV
+NORTH CENTRAL EMERGENCY,1,NO_MODELS_FOUND,0,,,
+PEBBLE,1,MODELS_FOUND,2,11453 | 13506,Pebble Flow | Pebble Teardrops LLC,Pebble Teardrops LLC | Pebble Flow
+PJ TRAILERS,1,MODELS_FOUND,13,11137,"PJ TRAILERS COMPANY, S.A. DE C.V.","PJ TRAILERS COMPANY, S.A. DE C.V. | 60"" All Steel Utility | 5"" Channel Buggy Hauler | I Beam | 6"" Channel Superwide | Channel Carhauler | Channel Equipment | Single Axle HD Tilt | Deckover Tilt | 83"" Hydraulic Quick Tilt"
+QUALITY VAN,1,NO_MODELS_FOUND,0,,,
+SEMI-TRAILER,1,NO_MODELS_FOUND,0,,,
+SOLAR MOTORS,1,MODELS_FOUND,1,13099,SOLAR MOTORS INC.,E-CLIPSE
+STOUGHTON,1,MODELS_FOUND,1,3414,Stoughton Trailers,Stoughton Trailers
+T & B WELDING & TRAILER,1,MODELS_FOUND,1,4367,T & B Welding & Trailers,T & B Welding & Trailers
+TAKE 3 TRAILERS,1,MODELS_FOUND,1,3225,Take 3 Trailers Inc,Take 3 Trailers Inc
+TAXA,1,MODELS_FOUND,5,3343,TAXA INC.,TAXA LP | Cricket | TigerMoth | WoollyBear | Mantis
+TESKE,1,MODELS_FOUND,1,3300,Teske Manufacturing,Teske Manufacturing
+TIMPTE,1,MODELS_FOUND,1,5331,"Timpte, INC",Timpte
+TRIPLE E RV,1,NO_MODELS_FOUND,0,,,
+UNKNOWN,1,MODELS_FOUND,1,3707,Unknown Choppers,Unknown Choppers
+VANTAGE,1,MODELS_FOUND,23,3363 | 3364 | 4604 | 806 | 8680 | 9662,"Advantage Customs | Advantage Terrafab, LLC | Advantage Trailers | Agvantage Manufacturing Corp. | Vantage Trailers | Vantage Vehicle International","Advantage Customs | Vantage Vehicle International, Inc. | Advantage Terrafab, LLC | Premium (gasoline) | Superior (gasoline) | Primo (gasoline) | Green (electric) | ePrimo 4x4 (lithium electric) | ePrimo 4x2 (lithium electric) | Hybrid"
+XTREME OUTDOORS,1,NO_MODELS_FOUND,0,,,
+YONGQIANG,1,MODELS_FOUND,2,1607 | 8401,Dongguan Yongqiang Vehicles | Jinhua Yongqiang Vehicles Factory,"Dongguan Yongqiang Vehicles Manufacturing CO., Ltd. | Jinhua Yongqiang Vehicles Factory"
+ZERO,1,MODELS_FOUND,41,2879 | 3814 | 4984,PLOT USA INC (ZERO ENGINEERING) | Zero Motorcycles | Zero4Outdoors,T5 | T6 | T7 | T8 | T5A | T6A | Zero4Outdoors | S | S/SP | DS/DSP

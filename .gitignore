@@ -1,0 +1,101 @@
+# ============================================================
+# AutoPulse AI
+# Git Ignore Configuration
+# ============================================================
+
+# Python virtual environments
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# IDE / editor files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Testing / linting cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+logs/
+
+# Raw and temporary data
+data/raw/
+data/temp/
+data/tmp/
+
+# Processed exports that can be regenerated
+data/processed/
+
+# ML / NLP artifacts
+models/artifacts/
+*.pkl
+*.joblib
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# dbt generated files
+target/
+dbt_packages/
+logs/
+
+# Node / Next.js generated files
+node_modules/
+.next/
+out/
+
+# Build files
+dist/
+build/
+
+# Generated staging datasets
+data/staging/
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.vscode/
+.DS_Store
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+.env
+.env.*
+!.env.example
+
+.vscode/
+
+.DS_Store
+Thumbs.db
+
+*.log
